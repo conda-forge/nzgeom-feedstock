@@ -93,6 +93,7 @@ def verify_config(ns):
         )
 
 
+
 def main(args=None):
     p = ArgumentParser("build-locally")
     p.add_argument("config", default=None, nargs="?")
