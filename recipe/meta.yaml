@@ -1,13 +1,13 @@
 {% set name = "nzgeom" %}
-{% set version = "0.1.6" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nzgeom-{{ version }}.tar.gz
-  sha256: a6eb0272dfe7a9095fa5ecde24e100e699e63a054df98887046eaa4983ccac03
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/nzgeom-{{ version }}.tar.gz
+  sha256: d705e5da623873b365828df9d2f0afccb3a3de48d9f0a62c094e471772cb8163
 
 build:
   noarch: python
