@@ -17,6 +17,7 @@ build:
 
 requirements:
   host:
+    - setuptools
     - pip
     - python {{ python_min }}
   run:
@@ -34,7 +35,9 @@ test:
 
 about:
   home: https://github.com/Timothy-W-Hilton/NZ_geometries
+  doc_url: https://nz-geometries.readthedocs.io/en/latest/
   summary: provide geospatial geometry for NZ coastlines and administrative regions
+  description: Provides geospatial geometries describing New Zealand coastlines and regional administrative boundaries.
   license: MIT
   license_file: LICENSE.txt
 
